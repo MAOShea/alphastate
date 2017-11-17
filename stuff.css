@@ -6,6 +6,14 @@ h1 {
 	font-weight: 500;
 	line-height: 26.4px;
 }
+h2 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20.0px;
+}
 h3 {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
