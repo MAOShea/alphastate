@@ -1,20 +1,42 @@
 <html>
    <head>
       <link rel="stylesheet" href="stuff.css">   
+      <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+      // Add the new slick-theme.css if you want the default styling
+      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
    </head>
    <body>
-      <h2>Are you a producer or an audio-visual artist who has a live act?</h2> 
-      <p>You probably tweak a few inputs in real time during the performance, like in the video below.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jSaQbYrLWjg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-      <br/>
-      <h2>What if you could let your audience control parts of the performance?</h2>
-      <p>Expose controls to the audience on their smart phones.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/EZruYWaorOo?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>      <br/>
-      <h2>Introducing AlphaState</h2>
-      <p>Audience and performance come together thanks to AlphaState.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ofvECppSs7Q?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-      <h2>Build an AlphaState experience</h2>
-      <p>Design your interactions, hook your DAW up to AlphaState, rock out.</p>  
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/i5geuqVAVwU?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      <div class="ascarousel">
+         <div>
+            <h2>Are you a producer or an audio-visual artist who has a live act?</h2> 
+            <p>You probably tweak a few inputs in real time during the performance, like in the video below.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jSaQbYrLWjg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+         </div>
+         <div>
+            <h2>What if you could let your audience control parts of the performance?</h2>
+            <p>Expose controls to the audience on their smart phones.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EZruYWaorOo?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>      <br/>
+         </div>
+         <div>
+            <h2>Introducing AlphaState</h2>
+            <p>Audience and performance come together thanks to AlphaState.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ofvECppSs7Q?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+         </div>
+         <div>
+            <h2>Build an AlphaState experience</h2>
+            <p>Design your interactions, hook your DAW up to AlphaState, rock out.</p>  
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/i5geuqVAVwU?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+         </div>
+      </div>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.ascarousel').slick({
+            setting-name: setting-value
+          });
+        });
+      </script>
    </body>
 </html>
