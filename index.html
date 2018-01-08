@@ -20,7 +20,12 @@
       <script type="text/javascript">
         $(document).ready(function(){
           var yay = $('.single-item');
-          $('.single-item').slick({
+          $('.single-item').slick({		  
+		dots: true,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 1,
+		slidesToScroll: 1		  
           });
         });
       </script>
