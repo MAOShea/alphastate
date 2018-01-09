@@ -31,9 +31,6 @@
 				</div>
 			</div>   
 			<hr>
-			<div class="single-item">
-				moop
-			</div>
 		</div>
 	</section>
 
@@ -43,7 +40,8 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
 	  var yay = $('.single-item');
-	  $('.single-item').slick({		  
+	  $('.single-item').slick({
+		  adaptiveHeight: true,
 		dots: true,
 		infinite: true,
 		speed: 500,
