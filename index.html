@@ -4,54 +4,67 @@
 		<link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
 	</head>
-   <body style>
-	<section class="blue">
-		<div class="content">
+   <body >
+		<div class="blue" style="position: absolute; top: 0; right:0; bottom:0; left:0;">
+			<div style="position: absolute; width:100%;height:100%" onclick="$('.content').show(); $('.single-item').slick({
+			adaptiveHeight: true,
+			dots: true,
+			infinite: false,
+			speed: 500,
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }); ">
+				<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+					<object id="svg1" data="alphastatelogo_plain.svg" type="image/svg+xml"></object>
+				</div>
+				<div style="position: absolute; width:100%;height:100%;cursor: pointer"></div>
+			</div>
+			<div class="content" style="display:none; position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
 				<hr> 
-				<div class="single-item" style="position:absolute">
+				<div class="single-item" >
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-						    Are you a producer or an audio-visual artist who has a live act? ...
+							Are you a producer or an audio-visual artist who has a live act? ...
 						</div>
 					</div>
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-						    You probably tweak a few inputs in real time during the performance ...
+							You probably tweak a few inputs in real time during the performance ...
 						</div>
 					</div>
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-						    <iframe width="672" height="378" src="https://www.youtube.com/embed/jSaQbYrLWjg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+							<iframe width="672" height="378" src="https://www.youtube.com/embed/jSaQbYrLWjg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 						</div>
 					</div>
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-						    What if you could let your audience control parts of the performance?
+							What if you could let your audience control parts of the performance?
 						</div>
 					</div>
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-						    <iframe width="672" height="378" src="https://www.youtube.com/embed/EZruYWaorOo?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>      <br/>
+							<iframe width="672" height="378" src="https://www.youtube.com/embed/EZruYWaorOo?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>      <br/>
 						</div>
 					</div>
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-						    Introducing AlphaState
+							Introducing AlphaState
 						</div>
 					</div>
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-						    <iframe width="672" height="378" src="https://www.youtube.com/embed/ofvECppSs7Q?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+							<iframe width="672" height="378" src="https://www.youtube.com/embed/ofvECppSs7Q?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 						</div>
 					</div>
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-						    Build an AlphaState experience
+							Build an AlphaState experience
 						</div>
 					</div>
 					<div style="width:750;height:580">
 						<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-							<iframe width="672" height="378" src="https://www.youtube.com/embed/8kiG-7w6G1M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<iframe width="672" height="378" src="https://www.youtube.com/embed/8kiG-7w6G1M?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 						</div>
 					</div>
 					<div style="width:750;height:580">
@@ -69,23 +82,22 @@
 					</div>				
 				</div>   
 				<hr>
+			</div>
 		</div>
-	</section>
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
-	<script type="text/javascript" src="slick/slick.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function(){
-	  $('.single-item').slick({
-		adaptiveHeight: true,
-		dots: true,
-		infinite: false,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1
-	  });
-	});
-	</script>
-</body>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+		<script type="text/javascript" src="slick/slick.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+/*		  $('.single-item').slick({
+			adaptiveHeight: true,
+			dots: true,
+			infinite: false,
+			speed: 500,
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }); */
+		});
+		</script>
+	</body>
 </html>

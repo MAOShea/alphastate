@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg847"
-   version="1.1"
-   viewBox="0 0 258.17966 67.880661"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="258.17966mm"
    height="67.880661mm"
-   width="258.17966mm">
+   viewBox="0 0 258.17966 67.880661"
+   version="1.1"
+   id="svg847"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="alphastatelogo_plain.svg">
   <defs
      id="defs841" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="552.18424"
+     inkscape:cy="-760.293"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g840"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata844">
     <rdf:RDF>
@@ -25,32 +53,36 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(507.82197,120.20819)"
-     id="layer1">
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(507.82197,120.20819)">
     <g
-       id="g840"
-       transform="matrix(0.28222223,0,0,0.28222223,-534.14783,-325.93855)">
+       transform="matrix(0.28222223,0,0,0.28222223,-534.14783,-325.93855)"
+       id="g840">
       <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="342.33694"
+         id="text4136-4-4-5"
          y="943.20868"
-         id="text4136-4-4-5"><tspan
-           id="tspan4138-4-3-0"
-           x="342.33694"
+         x="342.33694"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2487ca;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:269.44317627px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#2487ca;fill-opacity:1;"
            y="943.20868"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:269.44317627px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#000000;fill-opacity:1">State</tspan></text>
+           x="342.33694"
+           id="tspan4138-4-3-0"
+           sodipodi:role="line">State</tspan></text>
       <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="93.923767"
-         y="986.97632"
+         transform="scale(1.0460675,0.95596125)"
          id="text4136-6-58-8"
-         transform="scale(1.0460675,0.95596125)"><tspan
-           id="tspan4158-7-1-4"
-           x="93.923767"
+         y="986.97632"
+         x="93.923767"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2487ca;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         xml:space="preserve"><tspan
+           style="font-size:362.8420105px;line-height:1.25;fill:#2487ca;fill-opacity:1;"
            y="986.97632"
-           style="font-size:362.8420105px;line-height:1.25">α</tspan></text>
+           x="93.923767"
+           id="tspan4158-7-1-4"
+           sodipodi:role="line">α</tspan></text>
     </g>
   </g>
 </svg>
