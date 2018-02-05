@@ -6,7 +6,7 @@
 	</head>
    <body >
 		<div class="blue" style="position: absolute; top: 0; right:0; bottom:0; left:0;">
-			<div style="position: absolute; width:100%;height:100%" onclick="$('.content').show(); setTimeout( function() { slickify(); }, 0); ">
+			<div id="splash" style="z-index: 2; background: #3498db; position: absolute; width:100%;height:100%" onclick="$('#splash').css('z-index', -1);">
 				<div style="position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
 					<object id="svg1" data="alphastatelogo_plain.svg" type="image/svg+xml"></object>
 					<br>
@@ -14,7 +14,7 @@
 				</div>
 				<div style="position: absolute; width:100%;height:100%;cursor: pointer"></div>
 			</div>
-			<div class="content" style="display:none; position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+			<div class="content" style="z-index: 1; position: relative; float: left; top: 50%; left: 50%; transform: translate(-50%, -50%);">
 				<center>Get in touch at <a href="mailto:alphastate.systems@gmail.com" style="color:#FFFFFF;">alphastate.systems@gmail.com</a>.</center>
 				<hr> 
 				<div class="single-item" >
@@ -85,7 +85,8 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 		<script type="text/javascript" src="slick/slick.js"></script>
 		<script type="text/javascript">
-		function slickify() {
+				$(document).ready(function(){
+//		function slickify() {
 		  $('.single-item').slick({
 			adaptiveHeight: true,
 			dots: true,
@@ -94,7 +95,8 @@
 			slidesToShow: 1,
 			slidesToScroll: 1
 		  }); 			
-		};
+//		};
+		  }); 			
 		</script>
 	</body>
 </html>
