@@ -31,8 +31,7 @@
 .fixed-header ul.nav li{margin:0 0 0 10px;}
     .zixed-header, .zixed-footer{
         width: 100%;
-        position: fixed;        
-        background: #333;
+        position: fixed;
         padding: 10px 0;
     }
     .zixed-header{
