@@ -9,6 +9,17 @@
 
 #disqus_thread{margin-top:20px;}
 *{-moz-box-sizing:border-box;box-sizing:border-box;}
+.flexbox-container {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
 .blue{background:#3498db;color:#fff;}
 .blue h3{background:#fff;color:#3498db;font-size:36px;line-height:100px;margin:10px;padding:2%;position:relative;text-align:center;}
 .variable-width .slick-slide p { background: #fff; height: 100px; color:#3498db; margin: 5px; line-height: 100px; }
