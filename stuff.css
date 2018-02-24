@@ -29,6 +29,13 @@
 .fixed-header h1.title{float:left;font-size:24px;margin:0;}
 .fixed-header ul.nav{float:right;margin:0;padding:5px;}
 .fixed-header ul.nav li{margin:0 0 0 10px;}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  
+  // Direction of the items, can be row or column
+  flex-direction: column;
+}
     .zixed-header, .zixed-footer{
         width: 100%;
         position: fixed;
@@ -107,5 +114,7 @@ table.settings td:nth-of-type(1), table.methods td:nth-of-type(1){font-weight: 7
 table.settings td:nth-of-type(2):before{content: 'Type: '; font-weight: 700;}
 table.settings td:nth-of-type(3):before{content: 'Default: '; font-weight: 700;}
 table.methods td:nth-of-type(2):before{content: 'Arguments: '; font-weight: 700;}
+header, footer { height: 30px;}
+main { flex: 1; }
 }
 
