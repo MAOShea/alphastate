@@ -70,7 +70,7 @@
 .white{background:#fff;color:#3498db;}
 .white pre,.white hr{background:#3498db !important;}
 a{color:#3498db;}
-body,html{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;background:#fff; font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif; height:100%;line-height:1;margin:0;padding:0;text-rendering:optimizeLegibility;width:100%;}
+body,html{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;background:#fff; font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif; line-height:1;margin:0;padding:0;text-rendering:optimizeLegibility;}
 code{color:#000; overflow-x: scroll;}
 h1{color:#3498db;font-family:Pacifico;font-size:72px;font-weight:400;line-height:1.2;margin:0 auto 10px;text-align:center;}
 h1.title{font-size:96px;}
@@ -125,10 +125,10 @@ table.settings td:nth-of-type(1), table.methods td:nth-of-type(1){font-weight: 7
 table.settings td:nth-of-type(2):before{content: 'Type: '; font-weight: 700;}
 table.settings td:nth-of-type(3):before{content: 'Default: '; font-weight: 700;}
 table.methods td:nth-of-type(2):before{content: 'Arguments: '; font-weight: 700;}
-header,footer,main { position:absolute; right:0;left:0}
-header { height: 30px; top:0;}
-footer { height: 30px; bottom:0;}
-main { top:30px;
+#header, #footer, #main { position:absolute; right:0;left:0}
+#header { height: 30px; top:0;}
+#footer { height: 30px; bottom:0;}
+#main { top:30px;
   bottom:30px;
   overflow:hidden; /* use this if don't want any window scrollbars and use an inner element for scrolling*/
  }
