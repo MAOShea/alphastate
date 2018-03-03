@@ -20,6 +20,21 @@
 
 	align-items: center;
 }
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 .blue{background:#3498db;color:#fff;}
 .blue h3{background:#fff;color:#3498db;font-size:36px;line-height:100px;margin:10px;padding:2%;position:relative;text-align:center;}
 .variable-width .slick-slide p { background: #fff; height: 100px; color:#3498db; margin: 5px; line-height: 100px; }
@@ -47,17 +62,6 @@
   // Direction of the items, can be row or column
   flex-direction: column;
 }
-    .zixed-header, .zixed-footer{
-        width: 100%;
-        position: fixed;
-        padding: 10px 0;
-    }
-    .zixed-header{
-        top: 0;
-    }
-    .zixed-footer{
-        bottom: 0;
-    }
 .header{padding:20px 0;}
 .margin-40{margin-bottom:40px;}
 .more,.button.first{margin-top:40px;}
@@ -65,7 +69,6 @@
 .slick-slide .image{padding:10px;}
 .slick-slide img{border:5px solid #FFF;display:block;width:100%;}
 .slick-slide img.slick-loading{border:0 }
-.slick-slider{margin:30px auto 50px;}
 .subheading{color:#555;font-size:12px;font-style:italic;font-weight:400;margin:10px auto;text-align:center;}
 .white{background:#fff;color:#3498db;}
 .white pre,.white hr{background:#3498db !important;}
@@ -100,8 +103,14 @@ ul.nav li a{font-size:14px;text-decoration:none;}
 #carbonads .carbon-img { margin-bottom: 10px; }
 @media (max-width: 420px) {
 ul.nav li a{display:block;font-size:14px;}
+.alphastateslide { width:380px; height:213.75px }
 }
-@media (max-width: 768px) {
+
+@media only screen and (max-width: 600px) {
+.alphastateslide { width:520px; height:292px }
+}
+@media only screen and (min-width: 768px) {
+.alphastateslide { width:672px; height:378px }
 .fixed-header { display: none !important; }
 #carbonads { top: 0px; }
 .header ul.nav li { display: block; margin: 20px; }
@@ -132,5 +141,8 @@ table.methods td:nth-of-type(2):before{content: 'Arguments: '; font-weight: 700;
   bottom:30px;
   overflow:hidden; /* use this if don't want any window scrollbars and use an inner element for scrolling*/
  }
+ 
+.videoWrapper { position: relative; padding-bottom: 56.25%; height: 0; top: 50%; left: 50%; transform: translate(-50%, -50%)	}
+.videoWrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } 
 }
 
