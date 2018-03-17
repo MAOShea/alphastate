@@ -119,7 +119,7 @@ ul.nav li a{font-size:14px;text-decoration:none;}
 	display:block;
   }
 }
-
+ 
 @media screen and (min-width: 768px) {
 .alphastateslide { width:672px; height:378px }
 .fixed-header { display: none !important; }
