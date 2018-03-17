@@ -120,7 +120,7 @@ ul.nav li a{font-size:14px;text-decoration:none;}
   }
 }
  
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 .alphastateslide { width:672px; height:378px }
 .fixed-header { display: none !important; }
 #carbonads { top: 0px; }
