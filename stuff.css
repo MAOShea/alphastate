@@ -101,15 +101,26 @@ ul.nav li a{font-size:14px;text-decoration:none;}
 #carbonads { max-width: 320px; width: 100%; color: white; background: white; padding: 20px 20px 20px; margin: 0px auto 40px; text-align: center; position: relative; top: 40px; }
 #carbonads a { display: inline-block; margin-bottom: 0px; font-size: 10px; line-height: 1.5; }
 #carbonads .carbon-img { margin-bottom: 10px; }
-@media (max-width: 420px) {
-ul.nav li a{display:block;font-size:14px;}
-.alphastateslide { width:380px; height:213.75px }
+
+@media screen and (orientation: portrait) {
+  #pleaserotate {
+	display:block;
+  }
+  #presentation {
+	display:none;
+  }
 }
 
-@media only screen and (max-width: 600px) {
-.alphastateslide { width:520px; height:292px }
+@media screen and (orientation: landscape) {
+  #pleaserotate {
+	display:none;
+  }
+  #presentation {
+	display:block;
+  }
 }
-@media only screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) {
 .alphastateslide { width:672px; height:378px }
 .fixed-header { display: none !important; }
 #carbonads { top: 0px; }
