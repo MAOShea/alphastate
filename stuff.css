@@ -1,9 +1,20 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: url('pacifico.eot');
+  src: url('pacifico.eot?#iefix') format('embedded-opentype'),
+       url('pacifico.woff') format('woff'),
+       url('pacifico.ttf') format('truetype'),
+       url('pacifico.svg#Pacifico') format('svg');
+}
+
 body, html {
   padding: 0;
   margin: 0;
   height: 100%;
   background-color: #3398db;
 }
+
+body {-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased; font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif; line-height:1;margin:0;padding:0;text-rendering:optimizeLegibility;}
 
 header, footer {
   position: absolute;
@@ -42,13 +53,18 @@ a, a:link, a:visited {
   color: #000;
 }
 
+a:link,  {
+  color: #fff;
+}
+
 #theslideshow {
   width: 80%;
   margin: 0 auto;
 }
 
 .slide {
-  background: #fff;
+  background-color: #3398db;
+  color: #fff;
   text-align: center;
 }
 
