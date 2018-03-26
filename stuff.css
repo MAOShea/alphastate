@@ -12,6 +12,7 @@ body, html {
   margin: 0;
   height: 100%;
   background-color: #3398db;
+  color: #fff;  
 }
 
 body {-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased; font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif; line-height:1;margin:0;padding:0;text-rendering:optimizeLegibility;}
@@ -50,7 +51,7 @@ main {
 }
 
 a, a:link, a:visited {
-  color: #000;
+  color: #fff;
 }
 
 a:link,  {
